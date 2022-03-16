@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning to use Git Version Control</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -14,15 +15,50 @@
                 <h1>Logo</h1>
                 <p>This is tough to remember without any continuous practice</p>
             </div>
+            <nav>
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="">Home</a></li>
+                    <li class="nav-link"><a href="">About</a></li>
+                    <li class="nav-link"><a href="">Services</a></li>
+                    <li class="nav-link"><a href="">Contacts</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li class="nav-link"><a href="">Home</a></li>
-                <li class="nav-link"><a href="">About</a></li>
-                <li class="nav-link"><a href="">Services</a></li>
-                <li class="nav-link"><a href="">Contacts</a></li>
-            </ul>
-        </nav>
     </div>
+
+    <!-- Body Section -->
+    <section class="homepage-content">
+        <div class="container grid">
+            <div class="form">
+                <p>Please fill out the following information:</p>
+                <form action="">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" placeholder="Enter your first name"><br><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" placeholder="Enter your last name"><br><br>
+                    <p>Which languages have you learned? (check all that apply to you)</p>
+                    <input type="checkbox" id="language1" name="language1" value="Python">
+                    <label for="language1"> Python</label><br>
+                    <input type="checkbox" id="language2" name="language2" value="JavaScript">
+                    <label for="language2"> JavaScript</label><br>
+                    <input type="checkbox" id="language3" name="language3" value="Java">
+                    <label for="vehicle3"> Java </label><br>
+                    <input type="checkbox" id="language4" name="language4" value="C++">
+                    <label for="C++"> C++ </label><br>
+                    <input type="checkbox" id="language5" name="language5" value="C#">
+                    <label for="C#"> C# </label><br>
+                    <input type="checkbox" id="language6" name="language6" value=".net">
+                    <label for="language 6"> .net </label><br>
+                    <input type="submit" name="" id="" value="submit">
+                </form>
+            </div>
+            <div class="right-side">
+                <h2 class="heading-content">
+                    This is what we are coding up at the moment. We have to keep pracitcing or else my skills won't be achieved.
+                </h2>
+                <img src="Basketball.jpg" alt="">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
